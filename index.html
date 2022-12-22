@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The simon game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    
+</head>
+<body>
+    <h1 id="title">click start</h1>
+    <div>
+        <table cellspacing='30'>
+            <tr>
+                <td><button  class="btn" id="green"></button></td>
+                <td><button  class="btn" id="red" ></button></td>
+            </tr>
+            <tr>
+                <td><button  class="btn" id="yellow"></button></td>
+                <td><button  class="btn" id="blue"></button></td>
+            </tr>       
+        </table>
+        
+    </div>
+    <header>
+        <table>
+            <tr>
+                <td><button id="start" class="head">start</button></td><br>
+            </tr>
+           <tr>
+                <td><button id="score" class="head">score</button></td><br>
+           </tr>
+           
+        </table>
+    
+            <div class="head red"><button id="play">Rules</button></div>
+            <div id="hide" class="hid">
+            1.Press START ,the Level will swtich to "1"<br> 
+            2.It will give the first signal. Repeat the signal by pressing the same color box.<br>
+            3.It will duplicate the first signal and add one. Repeat these two signals by pressing the same color box, in order.<br>
+            4.Continue playing as long as you can repeat each sequence of signals correctly. <br>
+    
+            </div>
+        
+    </header>
+        
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
